@@ -1,0 +1,11 @@
+nimTitle	algolut	w8crc/algolut.html	module src/w8crc/algolut		0
+nim	crcLut	w8crc/algolut.html#crcLut.t,openArray[byte],Crc8Kind,LookupLut,uint32	template crcLut(data: openArray[byte]; kind: Crc8Kind; lookup: LookupLut;\n       prev: uint32 = 0): uint32		90
+nim	crcLut	w8crc/algolut.html#crcLut.t,string,Crc8Kind,LookupLut	template crcLut(data: string; kind: Crc8Kind; lookup: LookupLut): uint32		111
+nim	crcLut	w8crc/algolut.html#crcLut.t,openArray[byte],Crc16Kind,LookupLut,uint32	template crcLut(data: openArray[byte]; kind: Crc16Kind; lookup: LookupLut;\n       prev: uint32 = 0): uint32		129
+nim	crcLut	w8crc/algolut.html#crcLut.t,string,Crc16Kind,LookupLut	template crcLut(data: string; kind: Crc16Kind; lookup: LookupLut): uint32		152
+nim	crcLut	w8crc/algolut.html#crcLut.t,openArray[byte],Crc32Kind,LookupLut,uint32	template crcLut(data: openArray[byte]; kind: Crc32Kind; lookup: LookupLut;\n       prev: uint32 = 0): uint32		172
+nim	crcLut	w8crc/algolut.html#crcLut.t,string,Crc32Kind,LookupLut,uint32	template crcLut(data: string; kind: Crc32Kind; lookup: LookupLut; prev: uint32 = 0): uint32		195
+nim	crcLut	w8crc/algolut.html#crcLut,openArray[byte],CrcSpec,LookupLut,uint32	proc crcLut(data: openArray[byte]; spec: CrcSpec; lookup: LookupLut; prev: uint32 = 0): uint32		217
+nim	crcLut	w8crc/algolut.html#crcLut,string,CrcSpec,LookupLut	proc crcLut(data: string; spec: CrcSpec; lookup: LookupLut): uint32		224
+nimgrp	crclut	w8crc/algolut.html#crcLut-procs-all	proc		217
+nimgrp	crclut	w8crc/algolut.html#crcLut-templates-all	template		90

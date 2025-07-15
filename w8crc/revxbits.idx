@@ -1,0 +1,9 @@
+nimTitle	revxbits	w8crc/revxbits.html	module src/w8crc/revxbits		0
+nim	rev8b	w8crc/revxbits.html#rev8b,uint8	proc rev8b(b: uint8): uint8		1
+nim	rev8b	w8crc/revxbits.html#rev8b,uint32	proc rev8b(b: uint32): uint32		6
+nim	rev16b	w8crc/revxbits.html#rev16b,uint16	proc rev16b(b: uint16): uint16		11
+nim	rev16b	w8crc/revxbits.html#rev16b,uint32	proc rev16b(b: uint32): uint32		17
+nim	rev32b	w8crc/revxbits.html#rev32b,uint32	proc rev32b(b: uint32): uint32		23
+nim	revXb	w8crc/revxbits.html#revXb,uint32,int	proc revXb(b: uint32; len: int): uint32		30
+nimgrp	rev8b	w8crc/revxbits.html#rev8b-procs-all	proc		1
+nimgrp	rev16b	w8crc/revxbits.html#rev16b-procs-all	proc		11

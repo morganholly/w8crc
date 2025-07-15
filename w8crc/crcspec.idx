@@ -1,0 +1,12 @@
+nimTitle	crcspec	w8crc/crcspec.html	module src/w8crc/crcspec		0
+nim	CrcSpec	w8crc/crcspec.html#CrcSpec	object CrcSpec		1
+nim	initCrcSpec	w8crc/crcspec.html#initCrcSpec,string,int,uint32,uint32,bool,bool,uint32,uint32	proc initCrcSpec(name: string; size: int; poly, init: uint32; refin, refout: bool;\n            xorout, check: uint32): CrcSpec		11
+nim	name	w8crc/crcspec.html#name,CrcSpec	proc name(self: CrcSpec): string		18
+nim	size	w8crc/crcspec.html#size,CrcSpec	proc size(self: CrcSpec): int		21
+nim	poly	w8crc/crcspec.html#poly,CrcSpec	proc poly(self: CrcSpec): uint32		24
+nim	init	w8crc/crcspec.html#init,CrcSpec	proc init(self: CrcSpec): uint32		27
+nim	refin	w8crc/crcspec.html#refin,CrcSpec	proc refin(self: CrcSpec): bool		30
+nim	refout	w8crc/crcspec.html#refout,CrcSpec	proc refout(self: CrcSpec): bool		33
+nim	xorout	w8crc/crcspec.html#xorout,CrcSpec	proc xorout(self: CrcSpec): uint32		36
+nim	check	w8crc/crcspec.html#check,CrcSpec	proc check(self: CrcSpec): uint32		39
+nim	refoutNeeded	w8crc/crcspec.html#refoutNeeded,CrcSpec	proc refoutNeeded(self: CrcSpec): bool		42

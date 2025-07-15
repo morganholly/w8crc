@@ -1,0 +1,7 @@
+nimTitle	halfcrcs	w8crc/halfcrcs.html	module src/w8crc/halfcrcs		0
+nim	balanceNeeded	w8crc/halfcrcs.html#balanceNeeded,CrcSpec	proc balanceNeeded(spec: CrcSpec): bool		4
+nim	balanceNeeded	w8crc/halfcrcs.html#balanceNeeded,K	proc balanceNeeded[K: Crc8Kind | Crc16Kind | Crc32Kind](kind: K): bool		17
+nim	balance	w8crc/halfcrcs.html#balance,CrcSpec,uint32	proc balance(spec: CrcSpec; reval: var uint32)		20
+nim	balance	w8crc/halfcrcs.html#balance,K,uint32	proc balance[K: Crc8Kind | Crc16Kind | Crc32Kind](kind: K; reval: var uint32)		26
+nimgrp	balanceneeded	w8crc/halfcrcs.html#balanceNeeded-procs-all	proc		4
+nimgrp	balance	w8crc/halfcrcs.html#balance-procs-all	proc		20

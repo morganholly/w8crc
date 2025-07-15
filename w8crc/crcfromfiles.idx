@@ -1,0 +1,3 @@
+nimTitle	crcfromfiles	w8crc/crcfromfiles.html	module src/w8crc/crcfromfiles		0
+nim	crcFromFile	w8crc/crcfromfiles.html#crcFromFile.t,string,,LookupLut,static[Positive]	template crcFromFile(path: string; kind: Crc8Kind | Crc16Kind | Crc32Kind;\n            lookup: LookupLut; bufferSize: static[Positive] = 8192): uint32		50
+nim	crcFromFile	w8crc/crcfromfiles.html#crcFromFile,string,CrcSpec,LookupLut,static[Positive]	proc crcFromFile(path: string; spec: CrcSpec; lookup: LookupLut;\n            bufferSize: static[Positive] = 8192): uint32		58

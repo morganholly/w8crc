@@ -1,0 +1,5 @@
+nimTitle	updbitwise	w8crc/private/updbitwise.html	module src/w8crc/private/updbitwise		0
+nim	useBranchFree64	w8crc/private/updbitwise.html#useBranchFree64	const useBranchFree64		3
+nim	updRight	w8crc/private/updbitwise.html#updRight.t,uint32,uint32	template updRight(crc: var uint32; pol: uint32)		5
+nim	updLeft	w8crc/private/updbitwise.html#updLeft.t,uint32,uint32,uint32,int	template updLeft(crc: var uint32; msb, pol: uint32; tothemoon: int)		16
+nim	updLeft32	w8crc/private/updbitwise.html#updLeft32.t,uint32,uint32,uint32,int	template updLeft32(crc: var uint32; msb, pol: uint32; tothemoon: int)		27

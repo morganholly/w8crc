@@ -1,0 +1,6 @@
+nimTitle	initlookups	w8crc/initlookups.html	module src/w8crc/initlookups		0
+nim	initLookup	w8crc/initlookups.html#initLookup.t,Crc8Kind	template initLookup(kind: Crc8Kind): LookupLut		77
+nim	initLookup	w8crc/initlookups.html#initLookup.t,Crc16Kind	template initLookup(kind: Crc16Kind): LookupLut		90
+nim	initLookup	w8crc/initlookups.html#initLookup.t,Crc32Kind	template initLookup(kind: Crc32Kind): LookupLut		103
+nim	initLookup	w8crc/initlookups.html#initLookup,CrcSpec	proc initLookup(spec: CrcSpec): LookupLut		116
+nimgrp	initlookup	w8crc/initlookups.html#initLookup-templates-all	template		77

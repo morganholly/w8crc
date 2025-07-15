@@ -1,0 +1,11 @@
+nimTitle	algobitwise	w8crc/algobitwise.html	module src/w8crc/algobitwise		0
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,openArray[byte],Crc8Kind	template crcBitwise(data: openArray[byte]; kind: Crc8Kind): uint32		159
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,string,Crc8Kind	template crcBitwise(data: string; kind: Crc8Kind): uint32		179
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,openArray[byte],Crc16Kind	template crcBitwise(data: openArray[byte]; kind: Crc16Kind): uint32		199
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,string,Crc16Kind	template crcBitwise(data: string; kind: Crc16Kind): uint32		219
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,openArray[byte],Crc32Kind	template crcBitwise(data: openArray[byte]; kind: Crc32Kind): uint32		239
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise.t,string,Crc32Kind	template crcBitwise(data: string; kind: Crc32Kind): uint32		259
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise,openArray[byte],CrcSpec	proc crcBitwise(data: openArray[byte]; spec: CrcSpec): uint32		280
+nim	crcBitwise	w8crc/algobitwise.html#crcBitwise,string,CrcSpec	proc crcBitwise(data: string; spec: CrcSpec): uint32		286
+nimgrp	crcbitwise	w8crc/algobitwise.html#crcBitwise-procs-all	proc		280
+nimgrp	crcbitwise	w8crc/algobitwise.html#crcBitwise-templates-all	template		159

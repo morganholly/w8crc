@@ -1,0 +1,2 @@
+nimTitle	checkautoval	w8crc/checkautoval.html	module src/w8crc/checkautoval		0
+nim	initCrcSpec	w8crc/checkautoval.html#initCrcSpec,string,int,uint32,uint32,bool,bool,uint32	proc initCrcSpec(name: string; size: int; poly, init: uint32; refin, refout: bool;\n            xorout: uint32): CrcSpec		3

@@ -1,0 +1,5 @@
+nimTitle	crcbook	w8crc/params/crcbook.html	module src/w8crc/params/crcbook		0
+nim	takeCrcSpec	w8crc/params/crcbook.html#takeCrcSpec,Crc8Kind	proc takeCrcSpec(kind: Crc8Kind): CrcSpec		1170
+nim	takeCrcSpec	w8crc/params/crcbook.html#takeCrcSpec,Crc16Kind	proc takeCrcSpec(kind: Crc16Kind): CrcSpec		1173
+nim	takeCrcSpec	w8crc/params/crcbook.html#takeCrcSpec,Crc32Kind	proc takeCrcSpec(kind: Crc32Kind): CrcSpec		1176
+nimgrp	takecrcspec	w8crc/params/crcbook.html#takeCrcSpec-procs-all	proc		1170
