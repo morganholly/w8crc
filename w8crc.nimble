@@ -15,8 +15,8 @@ proc cleandir() =
   when (NimMajor, NimMinor, NimPatch) >= (1, 4, 0):
     exec "nim r --hints:off tests/cleandir"
 
-task test, "❌":
-  echo "Use test_branched or test_branchfree instead."
+# task test, "❌":
+#   echo "Use test_branched or test_branchfree instead."
 
 task test_branched, "Run all tests":
   exec "nim c   -f --hints:off --run tests/tester"
@@ -28,6 +28,11 @@ task test_branchfree, "Run all tests -d:useBranchFree64 (x64 required)":
   exec "nim c   -f --hints:off --run -d:useBranchFree64 tests/tester"
   exec "nim cpp -f --hints:off --run -d:useBranchFree64 tests/tester"
   exec "nim js  -f --hints:off --run -d:useBranchFree64 tests/testerjs"
+  cleandir()
+
+task test, "Run all tests with branched and branchfree modes":
+  exec "nimble test_branched"
+  exec "nimble test_branchfree"
   cleandir()
 
 task test_c_values, "Run C tests and print result to stdout (x64 required)":
