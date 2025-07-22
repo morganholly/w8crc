@@ -21,18 +21,20 @@ proc cleandir() =
 task test_branched, "Run all tests":
   exec "nim c   -f --hints:off --run tests/tester"
   exec "nim cpp -f --hints:off --run tests/tester"
-  exec "nim js  -f --hints:off --run tests/testerjs"
+  exec "nim js  -f --hints:off --run --jsbigint64 tests/testerjs"
   cleandir()
 
 task test_branchfree, "Run all tests -d:useBranchFree64 (x64 required)":
   exec "nim c   -f --hints:off --run -d:useBranchFree64 tests/tester"
   exec "nim cpp -f --hints:off --run -d:useBranchFree64 tests/tester"
-  exec "nim js  -f --hints:off --run -d:useBranchFree64 tests/testerjs"
+  exec "nim js  -f --hints:off --run -d:useBranchFree64 --jsbigint64 tests/testerjs"
   cleandir()
 
-task test, "Run all tests with branched and branchfree modes":
-  exec "nimble test_branched"
-  exec "nimble test_branchfree"
+task test, "GitHub Action for testing, no JS backend.":
+  exec "nim c   -f --hints:off --run tests/tester"
+  exec "nim cpp -f --hints:off --run tests/tester"
+  exec "nim c   -f --hints:off --run -d:useBranchFree64 tests/tester"
+  exec "nim cpp -f --hints:off --run -d:useBranchFree64 tests/tester"
   cleandir()
 
 task test_c_values, "Run C tests and print result to stdout (x64 required)":

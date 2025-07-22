@@ -1,5 +1,10 @@
 ## W8crc - A full-featured CRC library for Nim
 
+> [!WARNING]
+> JS backend has error with crc32.
+> I have no clue what is going on, the failing code is identical to code on c/c++.
+> JS tests not included in GitHub actions.
+
 Features:
 * Bitwise and lookup table crc algorithms
 * Support for all parameterized crc algos from [CRC RevEng](https://reveng.sourceforge.io/crc-catalogue/all.htm) (except >32 for now)
